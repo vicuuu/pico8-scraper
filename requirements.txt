@@ -1,3 +1,4 @@
+eel
 requests
 beautifulsoup4
-customtkinter
+tkinter
