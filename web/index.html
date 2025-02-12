@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICO-8 Scraper</title>
+    <script src="/eel.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo">
+
+        <h2>Settings:</h2>
+        
+        <div class="input-group">
+            <label>📁 Folder:</label>
+            <input type="text" id="folderPath" readonly>
+            <button onclick="chooseFolder()">📂 Select</button>
+        </div>
+        <br>
+
+        <div class="input-group">
+            <label>📄 No. of pages:</label>
+            <input type="number" id="pages" value="1" min="1">
+        </div>
+        <br>
+
+        <div class="input-group">
+            <label>⭐ Min. rating:</label>
+            <input type="number" id="stars" value="0" min="0">
+        </div>
+        <br>
+
+        <h2>Status:</h2>
+
+        <textarea id="status" readonly></textarea>
+        <progress id="progressBar" max="1" value="0"></progress>
+        <button class="start-btn" onclick="startScraping()">🚀 Start</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
