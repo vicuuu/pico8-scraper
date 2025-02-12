@@ -8,7 +8,7 @@ A simple and efficient scraper for extracting Pico-8 games based on user-defined
 - Easy to use and customize.
 
 ## Demo
-![demo](https://github.com/vicuuu/pico8-scraper/blob/main/demo.gif)
+![demo](https://github.com/vicuuu/pico8-scraper/blob/main/presentation.gif)
 
 ## Compile
 To get started, install all the required packages by running:
